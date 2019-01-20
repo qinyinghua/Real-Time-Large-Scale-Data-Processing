@@ -1,5 +1,9 @@
 # Real Time Large Scale Data Processing
 
+In the SaaS platform, we usually need to process large scale data on the real time,  have the artificial intelligent engine to analyze the data on the fly and visualize the analysis result dynamically. 
+
+Real Time data processing is a key part of the SaaS artificial intelligent platform.  While the distributed stream system and AI platform architectures are evolving, it is good to evaluate the different solutions with pros and cons and try to find the "fit" for particular business needs. 
+
 In this project,  I am going to evaluate the real time data stream processing using different platforms. That includes Kafka, Spark, Data-bricks, Managed Service on Azure vs. Moses on DC/OS
 
 ## Getting Started
