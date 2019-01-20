@@ -1,4 +1,4 @@
-# Real Time Large Scale Data Processing
+# Real Time Large Scale Data Processing Azure AWS and Self-managed Container Platform
 
 In the SaaS platform, we usually need to process large scale data on the real time,  have the artificial intelligent engine to analyze the data on the fly and visualize the analysis result dynamically. 
 
@@ -63,25 +63,33 @@ Spark concepts:
 
 
 
-## Part I - Kafka Spark on Azure Managed Service
+## Part I - Kafka Spark Databricks on Azure Managed Service
+
+![Architecture of a machine learning model for training movie recommendations](assets/recommenders-architecture.png)
+
+[Source: https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/ai/real-time-recommendation]
+
+## Part II - Kafka Spark Kinesis on Amazon Managed Service
 
 
 
-## Part II - Data-bricks on Azure Managed Service
+![1548021407719](assets/1548021407719.png)
 
-
-
-## Part III - Kafka Spark on  DC/OS
-
-
+## Part III - Kafka Spark on Container Architecture
 
 
 
 ## References
 
-[1] https://lenadroid.github.io/posts/kafka-hdinsight-and-spark-databricks.html
+[1] https://kafka.apache.org/intro
 
-[2] https://github.com/lenadroid/kafka-spark-azure
+[2] https://lenadroid.github.io/posts/kafka-hdinsight-and-spark-databricks.html
 
-[3] https://www.youtube.com/watch?v=tDAoIzF-7q0
+[3] https://github.com/lenadroid/kafka-spark-azure
+
+[4] https://www.youtube.com/watch?v=tDAoIzF-7q0
+
+[5] https://www.slideshare.net/Hadoop_Summit/design-patterns-for-real-time-streaming-data-analytics
+
+[6] https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/ai/real-time-recommendation
 
