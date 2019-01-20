@@ -1,4 +1,4 @@
-# Real Time Large Scale Data Processing Azure AWS and Self-managed Container Platform
+# Real Time Large Scale Data Processing on Azure , AWS and SMACK Stack
 
 In the SaaS platform, we usually need to process large scale data on the real time,  have the artificial intelligent engine to analyze the data on the fly and visualize the analysis result dynamically. 
 
@@ -6,7 +6,63 @@ Real Time data processing is a key part of the SaaS artificial intelligent platf
 
 In this project,  I am going to evaluate the real time data stream processing using different platforms. That includes Kafka, Spark, Data-bricks, Managed Service on Azure vs. Moses on DC/OS
 
-## Getting Started
+Content:
+
+[Part I - SMACK Stack on Container Architecture]()
+
+[Part II - Kafka Spark Databricks on Azure Managed Service]()
+
+[Part III - Kafka Spark (Amazon Kinesis EMR) on Amazon Managed Service]()
+
+
+
+
+
+## Part I - SMACK Stack on Container Architecture
+
+![LAMP Stack and SMACK Stack comparison](assets/smack-stack-is-the-new-lamp-stack-comparison.png)[Source: Mesosphere https://mesosphere.com/blog/smack-stack-new-lamp-stack/]
+
+“SMACK” stack:
+
+- **Spark** – A general engine for large-scale data processing, enabling analytics from SQL queries to machine learning, graph analytics, and stream processing
+- **Mesos** – Distributed systems kernel that provides resourcing and isolation across all the other SMACK stack components. Mesos is the foundation on which other SMACK stack components run.
+- **Akka** – A toolkit and runtime to easily create concurrent and distributed apps that are responsive to messages.
+- **Cassandra** – Distributed database management system that can handle large amounts of data across servers with high availability.
+- **Kafka** – A high throughput, low-latency platform for handling real-time data feeds with no data loss.
+
+
+
+
+
+## Part II - Kafka Spark Databricks on Azure Managed Service
+
+![Architecture of a machine learning model for training movie recommendations](assets/recommenders-architecture.png)
+
+Microsoft AI Reference Architecture [Source: https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/ai/real-time-recommendation]
+
+![Reference architecture for stream processing with Azure Databricks](assets/stream-processing-databricks.png)
+
+Microsoft Big Data Reference Architeture [Source: https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/data/stream-processing-databricks#architecture]
+
+
+
+## Part III - Kafka Spark (Amazon Kinesis EMR) on Amazon Managed Service
+
+Amazon Reference Architecture of Time Series Data Processing. https://aws.amazon.com/architecture/
+
+![1548023008480](assets/1548023008480.png)
+
+[Source: https://media.amazonwebservices.com/architecturecenter/AWS_ac_ra_timeseriesprocessing_16.pdf]
+
+Amazon Reference Architecture of Real-time Analytics 
+
+![1548021407719](assets/1548021407719.png)
+
+
+
+
+
+## Technology Stacks - Getting Started
 
 To get start, let's take a look at what Kafka, Spark and Databricks do. 
 
@@ -61,24 +117,6 @@ Spark concepts:
 
 - 
 
-
-
-## Part I - Kafka Spark Databricks on Azure Managed Service
-
-![Architecture of a machine learning model for training movie recommendations](assets/recommenders-architecture.png)
-
-[Source: https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/ai/real-time-recommendation]
-
-## Part II - Kafka Spark Kinesis on Amazon Managed Service
-
-
-
-![1548021407719](assets/1548021407719.png)
-
-## Part III - Kafka Spark on Container Architecture
-
-
-
 ## References
 
 [1] https://kafka.apache.org/intro
@@ -92,4 +130,10 @@ Spark concepts:
 [5] https://www.slideshare.net/Hadoop_Summit/design-patterns-for-real-time-streaming-data-analytics
 
 [6] https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/ai/real-time-recommendation
+
+[7] https://aws.amazon.com/architecture/
+
+[8] Mesosphere Webinar: Building Data-Rich Apps with the "SMACK" Stack  https://www.youtube.com/watch?time_continue=537&v=jV1WsUuQNck
+
+
 
